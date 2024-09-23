@@ -115,6 +115,13 @@ a.sidebar-link:hover {
     padding: 5% ;
 }
 
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+}
+
 
 .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
